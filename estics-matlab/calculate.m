@@ -7,4 +7,4 @@ MaxIter = 50;
 [L,R,v] = estics(S,B,r,lambda,MaxIter);
 X = L*R';
 
-save result.txt X -ascii
+save result.txt X -ascii;
